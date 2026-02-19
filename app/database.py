@@ -1,0 +1,8 @@
+from motor.motor_asyncio import AsyncIOMotorClient
+from app.config import settings
+
+client = AsyncIOMotorClient(settings.MONGO_URI)
+db = client[settings.DB_NAME]
+metadata_collection = db.metadata
+
+metadata_collection.create_index("url", unique=True)
