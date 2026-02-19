@@ -15,13 +15,13 @@ Built using:
 
 # 🚀 Features
 
-✅ Create metadata records for any URL
-✅ Retrieve metadata instantly if available
-✅ Async background metadata collection on cache miss
-✅ Non-blocking API responses
-✅ MongoDB indexed storage
-✅ Fully containerized environment
-✅ Separation of Concerns (API / Service / Repository)
+✅ Create metadata records for any URL <br>
+✅ Retrieve metadata instantly if available <br>
+✅ Async background metadata collection on cache miss <br>
+✅ Non-blocking API responses <br>
+✅ MongoDB indexed storage <br>
+✅ Fully containerized environment <br>
+✅ Separation of Concerns (API / Service / Repository) <br>
 ✅ Ready for horizontal scaling
 
 ---
