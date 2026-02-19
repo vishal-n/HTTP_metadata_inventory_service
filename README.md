@@ -91,7 +91,7 @@ metadata-inventory/
 ## 1️⃣ Clone Repository
 
 ```
-git clone <your-repo-url>
+git clone git@github.com:vishal-n/HTTP_metadata_inventory_service.git
 cd metadata-inventory
 ```
 
