@@ -3,6 +3,7 @@ uvicorn
 motor
 httpx
 pydantic
+pydantic-settings
 python-dotenv
 pytest
 pytest-asyncio
