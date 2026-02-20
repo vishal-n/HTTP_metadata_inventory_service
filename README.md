@@ -1,6 +1,6 @@
 # 📦 HTTP Metadata Inventory Service
 
-A high-performance backend service that collects and inventories HTTP metadata (headers, cookies, and page source) for any given URL.
+A backend service that collects and inventories HTTP metadata (headers, cookies, and page source) for any given URL.
 
 Built using:
 
