@@ -22,7 +22,6 @@ Built using:
 ✅ MongoDB indexed storage <br>
 ✅ Fully containerized environment <br>
 ✅ Separation of Concerns (API / Service / Repository) <br>
-✅ Ready for horizontal scaling
 
 ---
 
@@ -92,16 +91,18 @@ metadata-inventory/
 
 ```
 git clone git@github.com:vishal-n/HTTP_metadata_inventory_service.git
-cd metadata-inventory
+cd HTTP_metadata_inventory_service
 ```
 
 ---
 
-## 2️⃣ Run Using Docker Compose (Mandatory)
+## 2️⃣ Docker Setup
 
 Start API and MongoDB:
 
 ```
+docker-compose up mongo -d
+
 docker-compose up --build
 ```
 
