@@ -98,12 +98,14 @@ cd HTTP_metadata_inventory_service
 
 ## 2️⃣ Docker Setup
 
-Start API and MongoDB:
+Start API and MongoDB (In case of any issues with the docker build command for the APIs, then use the uvicorn command to run the localhost server):
 
 ```
 docker-compose up mongo -d
 
 docker-compose up --build
+
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ---
