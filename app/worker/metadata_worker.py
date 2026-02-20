@@ -13,7 +13,7 @@ async def collect_metadata(url: str):
         metadata = {
             "url": url,
             "headers": dict(response.headers),
-            "cookies": response.cookies.jar.get_dict(),
+            "cookies": dict(response.cookies),
             "page_source": response.text
         }
 

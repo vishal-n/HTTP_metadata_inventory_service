@@ -9,7 +9,7 @@ service = MetadataService()
 
 @router.post("/metadata")
 async def create_metadata(req: URLRequest):
-    await service.create(req.url)
+    await service.create(str(req.url))
     return {"message": "Metadata collected"}
 
 
